@@ -10,17 +10,17 @@ or itsbetter to create venv in jupyter ntebookitself
   505  streamlit.exe run example.py
 
 
--- in anaconda cmd prompt...
+-----
+oncmd:
 conda env list
+python --version
+conda create -p facenv python==3.12 -y # in ur current folder
+conda info --envs
+conda activate C:\Users\techlanders\Langchain-Tutorials\LLMProjectWithHuggingface\facenv
+conda info --envs
+pip install ipykernel
 
-## create a conda env usingui ..
-
-conda env list
-conda create -p myenv python=latest -y
-conda activate myenv
-pip install --user ipykernel
-python -m ipykernel install --user --name=myenv
-
+workonvs code or 
 -- openjupyternotebook
 
 ```
